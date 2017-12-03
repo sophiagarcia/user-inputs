@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 <link rel='stylesheet' type='text/css' href='style.css'>
 	<title>FRANK</title>
 </head>
 <body>
-<input type='number' id='money' placeholder="how much money do you have?">
-<button id='button'>&#x1F440</button>
-<div id='result'>
-	<img id='happyfrank' src=''>
-	<img id='sadfrank' src='sadfrank.jpg'>
+<div id='wrapper'>
+	<p>Can you afford Frank's Endless album on vinyl?</p>
+	<img id='endless' src='endless.jpg'>
+	<input type='number' id='money' placeholder="how much money do you have?">
+	<button id='button'>&#x1F440</button>
+	<div id='result'>
+		<p id='yeah' href='https://blonded.co/'>YEAH!</p>
+		<img id='happyfrank' src='happyfrank.jpg'>
+		<!-- <a href='https://blonded.co/'></a> -->
+		<p id='nah'>NAH</p>
+		<img id='sadfrank' src='sadfrank.jpg'>
+	</div>
+	<script src='jquery-3.2.1.min.js'></script>
+	<script type='text/javascript' src='script.js'></script>
 </div>
-<script src='jquery-3.2.1.min.js'></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-<script type='text/javascript' src='script.js'></script>
 </body>
 </html>
 
