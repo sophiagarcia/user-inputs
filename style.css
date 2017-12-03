@@ -1,0 +1,11 @@
+#money{
+	width: 30%;
+	height: auto;
+}
+
+#sadfrank{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	display: none;
+}
